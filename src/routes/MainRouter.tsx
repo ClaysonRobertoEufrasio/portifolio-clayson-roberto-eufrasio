@@ -11,7 +11,7 @@ export const RouteMain = (): JSX.Element => {
             <Route path="/home" element={<Home />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/myprojects" element={<MyProjects />}/>
-            <Route path="*" element={<Navigate replace to="/about" />} />
+            <Route path="*" element={<Navigate replace to="/home" />} />
         </Routes>
     )
 }
