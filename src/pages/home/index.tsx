@@ -20,9 +20,7 @@ import {
   ProjectsArea,
   ProjectsAreaSocialMediaMessage,
   ProjectAreaWrapperColumns,
-  ProjectsAreaContent,
 } from "./style";
-import { Project } from '@/components/Project';
 
 
 export const Home = (): JSX.Element => {
@@ -82,19 +80,6 @@ export const Home = (): JSX.Element => {
                 Acessar perfil no LinkedIn
               </Button>
             </ProjectsAreaSocialMediaMessage>
-            <ProjectsAreaContent>
-              <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
-                Projetos
-              </Text>
-              <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
-                <Text as="span" color="brand1" type="heading2">
-                  dedicação
-                </Text>{" "}
-                em cada detalhe
-              </Text>
-              <Project />
-            </ProjectsAreaContent>
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>
