@@ -3,28 +3,15 @@ import { Container } from "@/styles/Global";
 import { Text } from "@/styles/Text";
 import { Button } from "@/styles/Buttons";
 
-// Components
-import { Stack } from "@/components/Stack";
-import { Project } from "@/components/Project";
-
-// Data
-import { stackData } from "@/utils/stackData";
-import { userData } from "@/utils/userData";
-
 // Page Style
 import {
   Header,
   HeaderContent,
-  HeaderButtonsArea,
-  StackSection,
-  StackCards,
   ProjectsArea,
   ProjectsAreaSocialMediaMessage,
-  ProjectsAreaContent,
   ProjectAreaWrapperColumns,
 } from "../home/style";
-import { useNavigate } from "react-router-dom";
-import { ProjectStack, ProjectStackTech } from "@/components/Project/style";
+
 import { CardProjects, ContrainerProjetcs } from "./style";
 
 export const MyProjects = (): JSX.Element => {
